@@ -16,7 +16,10 @@ const MoviePosterSlider = ({ movieData }) => {
         }`}
       >
         {movieData.map((movie, _) => (
-          <div key={movie.id} style={{ margin: "10px" }}>
+          <div
+            key={movie.id}
+            style={{ margin: "10px 10px 10px 0", paddingLeft: "25px" }}
+          >
             <MovieGraditent movie={movie} />
           </div>
         ))}
