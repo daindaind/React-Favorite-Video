@@ -1,0 +1,35 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: transform 0.3s ease;
+}
+
+.Container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.Container h5 {
+  display: flex;
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.Container p {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.Container img {
+  width: 250px;
+  height: 360px;
+  background-color: var(--gray-08);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}

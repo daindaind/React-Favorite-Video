@@ -1,0 +1,36 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.MovieContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  overflow-y: visible;
+  overflow-x: scroll;
+}
+
+.MovieContainer::-webkit-scrollbar {
+  height: 3px;
+}
+.MovieContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+.MovieContainer::-webkit-scrollbar-thumb {
+  visibility: hidden;
+  background: var(--pink-07);
+  border-radius: 1px;
+  margin-left: 20px;
+}
+.MovieContainer.hovered::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.Arrow {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 30px;
+}
