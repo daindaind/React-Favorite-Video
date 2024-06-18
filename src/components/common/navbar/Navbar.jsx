@@ -20,7 +20,7 @@ const Navbar = () => {
           <p>MOVIES</p>
         </NavLink>
         <NavLink
-          to={PAGE_URL.POSTS}
+          to={PAGE_URL.POST}
           className={({ isActive }) => (isActive ? styles.View : styles.Link)}
         >
           <p>POSTS</p>

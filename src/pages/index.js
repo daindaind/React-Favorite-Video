@@ -1,6 +1,6 @@
 import HomePage from "./home/HomePage";
 import MoviesPage from "./movies/MoviesPage";
 import MovieDetailPage from "./movies/detail/MovieDetailPage";
-import PostsPage from "./posts/PostsPage";
+import PostPage from "./post/PostPage";
 
-export { HomePage, MoviesPage, PostsPage, MovieDetailPage };
+export { HomePage, MoviesPage, PostPage, MovieDetailPage };

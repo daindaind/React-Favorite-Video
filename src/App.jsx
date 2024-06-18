@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-import { HomePage, MovieDetailPage, MoviesPage, PostsPage } from "./pages";
+import { HomePage, MovieDetailPage, MoviesPage, PostPage } from "./pages";
 import { PAGE_URL } from "./constants/router";
 
 const router = createBrowserRouter([
@@ -17,11 +17,11 @@ const router = createBrowserRouter([
         element: <MoviesPage />,
       },
       {
-        path: PAGE_URL.POSTS,
-        element: <PostsPage />,
+        path: PAGE_URL.POST,
+        element: <PostPage />,
       },
       {
-        path: PAGE_URL.MOVIES_DETAIL,
+        path: `${PAGE_URL.MOVIE_DETAIL}/:id`,
         element: <MovieDetailPage />,
       },
     ],

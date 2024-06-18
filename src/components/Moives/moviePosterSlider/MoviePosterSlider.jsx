@@ -1,9 +1,8 @@
-import dummyMovies from "../../../data/dummyMovies";
 import MovieGraditent from "../movieGradient/MovieGraditent";
 import styles from "./MoviePosterSlider.module.css";
 import useHover from "../../../hooks/useHover";
 
-const MoviePosterSlider = () => {
+const MoviePosterSlider = ({ movieData }) => {
   const { ref, handleMouseEnter, handleMouseLeave, isHovered } = useHover();
 
   return (
@@ -16,7 +15,7 @@ const MoviePosterSlider = () => {
           isHovered ? styles.hovered : ""
         }`}
       >
-        {dummyMovies.map((movie, _) => (
+        {movieData.map((movie, _) => (
           <div key={movie.id} style={{ margin: "10px" }}>
             <MovieGraditent movie={movie} />
           </div>
