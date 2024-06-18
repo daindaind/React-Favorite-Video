@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-import { HomePage, MoviesPage, PostsPage } from "./pages";
+import { HomePage, MovieDetailPage, MoviesPage, PostsPage } from "./pages";
+import { PAGE_URL } from "./constants/router";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: PAGE_URL.BASE,
     element: <MainLayout />,
     children: [
       {
@@ -12,12 +13,16 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "movies",
+        path: PAGE_URL.MOVIES,
         element: <MoviesPage />,
       },
       {
-        path: "posts",
+        path: PAGE_URL.POSTS,
         element: <PostsPage />,
+      },
+      {
+        path: PAGE_URL.MOVIES_DETAIL,
+        element: <MovieDetailPage />,
       },
     ],
   },

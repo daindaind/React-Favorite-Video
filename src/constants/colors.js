@@ -1,0 +1,12 @@
+const COLORS = {
+  GRAY_100: "#838D9B",
+  GRAY_200: "#778291",
+  GRAY_300: "#5B6676",
+  GRAY_400: "#515C6C",
+  GRAY_500: "#353D4B",
+  GRAY_600: "#262F3E",
+  GRAY_700: "#181D24",
+  GRAY_800: "#151825",
+};
+
+export { COLORS };

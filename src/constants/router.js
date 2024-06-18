@@ -1,7 +1,8 @@
 const PAGE_URL = {
   BASE: "/",
-  MOVIES: "/movies",
-  POSTS: "/posts",
+  MOVIES: "movies",
+  MOVIES_DETAIL: `movies/detail/:id`,
+  POSTS: "posts",
 };
 
 export { PAGE_URL };
