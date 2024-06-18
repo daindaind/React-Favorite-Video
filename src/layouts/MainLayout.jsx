@@ -6,7 +6,16 @@ const MainLayout = () => {
   return (
     <div className={styles.Container}>
       <Navbar />
-      <Outlet />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          flex: 1,
+          height: "100%",
+        }}
+      >
+        <Outlet />
+      </div>
     </div>
   );
 };

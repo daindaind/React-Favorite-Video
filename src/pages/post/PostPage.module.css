@@ -1,0 +1,59 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 35px;
+}
+
+.ContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.Title {
+  color: var(--text);
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.InputTitle {
+  color: var(--gray-01);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ImgContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.Img {
+  width: 250px;
+  height: 360px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.NoneImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 360px;
+  background-color: white;
+  border-radius: 5px;
+}
