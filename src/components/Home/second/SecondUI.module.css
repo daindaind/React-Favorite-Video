@@ -27,18 +27,6 @@
   }
 }
 
-.slideUp {
-  animation: slideUp 1s ease-out;
-}
-
-.moveRightToLeft {
-  animation-name: moveRightToLeft;
-}
-
-.moveLeftToRight {
-  animation-name: moveLeftToRight;
-}
-
 .Container {
   position: relative;
   display: flex;
@@ -53,6 +41,7 @@
   color: var(--text);
   margin-top: 70px;
   z-index: 100;
+  animation: slideUp 1s ease-out;
 }
 
 .Title span {
@@ -69,12 +58,14 @@
   margin-top: 10px;
   margin-bottom: 80px;
   z-index: 100;
+  animation: slideUp 1s ease-out;
 }
 
 .Poster {
   position: relative;
   z-index: 100;
   margin-bottom: 300px;
+  animation: slideUp 1s ease-out;
 }
 
 .Circle {
@@ -91,6 +82,7 @@
 .Circle1 {
   top: 100px;
   right: -50px;
+  animation-name: moveRightToLeft;
 }
 
 .Circle2 {
@@ -98,6 +90,7 @@
   height: 30px;
   top: 0px;
   left: 150px;
+  animation-name: moveLeftToRight;
 }
 
 .BubblePosition1 {
@@ -166,6 +159,7 @@
 }
 
 .BubbleText {
-  color: white;
+  color: var(--white-03);
   white-space: pre-wrap;
+  font-weight: 400;
 }
