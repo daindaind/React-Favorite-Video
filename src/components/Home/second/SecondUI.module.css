@@ -1,0 +1,161 @@
+@keyframes moveRightToLeft {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: -50px;
+  }
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 150px;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.Container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 70px;
+  animation: slideUp 1s ease-out;
+  z-index: 100;
+}
+
+.Title span {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--pink-07);
+  z-index: 100;
+}
+
+.SubTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text);
+  margin-top: 10px;
+  animation: slideUp 1s ease-out;
+  margin-bottom: 80px;
+  z-index: 100;
+}
+
+.Poster {
+  position: relative;
+  animation: slideUp 1s ease-out;
+  z-index: 100;
+}
+
+.Circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: var(--pink-07);
+  border-radius: 300px;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.Circle1 {
+  top: 100px;
+  right: -50px;
+  animation-name: moveRightToLeft;
+}
+
+.Circle2 {
+  width: 30px;
+  height: 30px;
+  top: 0px;
+  left: 150px;
+  animation-name: moveLeftToRight;
+}
+
+.BubblePosition1 {
+  position: absolute;
+  bottom: 250px;
+  left: -200px;
+  z-index: 200;
+  animation: slideUp 1s ease-out;
+}
+.BubblePosition2 {
+  position: absolute;
+  bottom: 100px;
+  right: -200px;
+  z-index: 200;
+  animation: slideUp 1s ease-out;
+}
+
+.SpeechBubbleLeft {
+  position: relative;
+  background: var(--pink-07);
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  margin: 20px;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.SpeechBubbleLeft::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 20%;
+  transform: translateX(-50%);
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: var(--pink-07) transparent transparent transparent;
+}
+
+.SpeechBubbleRight {
+  position: relative;
+  background: var(--pink-07);
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  margin: 20px;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.SpeechBubbleRight::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 80%;
+  transform: translateX(-50%);
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: var(--pink-07) transparent transparent transparent;
+}
+
+.BubbleText {
+  color: white;
+  white-space: pre-wrap;
+}
