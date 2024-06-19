@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import styles from "./TextInput.module.css";
 
-const TextInput = () => {
+const TextInput = ({ register, id, placeholder }) => {
   const textareaRef = useRef(null);
 
   const handleInput = () => {
@@ -19,7 +19,14 @@ const TextInput = () => {
       };
     }
   }, []);
-  return <textarea className={styles.TextareaStyle} ref={textareaRef} />;
+  return (
+    <textarea
+      className={styles.TextareaStyle}
+      ref={textareaRef}
+      placeholder={placeholder}
+      {...register(id)}
+    />
+  );
 };
 
 export default TextInput;

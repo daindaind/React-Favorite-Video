@@ -1,4 +1,4 @@
-import MovieGraditent from "../movieGradient/MovieGraditent";
+import MoviePoster from "../moviePoster/MoviePoster";
 import styles from "./MoviePosterSlider.module.css";
 import useHover from "../../../hooks/useHover";
 
@@ -20,7 +20,7 @@ const MoviePosterSlider = ({ movieData }) => {
             key={movie.id}
             style={{ margin: "10px 10px 10px 0", paddingLeft: "25px" }}
           >
-            <MovieGraditent movie={movie} />
+            <MoviePoster movie={movie} />
           </div>
         ))}
       </div>

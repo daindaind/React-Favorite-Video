@@ -4,3 +4,10 @@
   overflow-x: hidden;
   background-color: var(--white-03);
 }
+
+.ContentLayout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}

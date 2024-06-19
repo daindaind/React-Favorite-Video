@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import styles from "./MovieGraditent.module.css";
+import styles from "./MoviePoster.module.css";
 import { PAGE_URL } from "../../../constants/router";
 
-const MovieGraditent = ({ movie }) => {
+const MoviePoster = ({ movie }) => {
   const { image, title, slug, id } = movie;
   const navigate = useNavigate();
   const handleButtonClick = () => {
@@ -20,4 +20,4 @@ const MovieGraditent = ({ movie }) => {
   );
 };
 
-export default MovieGraditent;
+export default MoviePoster;
