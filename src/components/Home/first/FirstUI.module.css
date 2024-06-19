@@ -1,0 +1,85 @@
+@keyframes slideDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.Container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 70px;
+  animation: slideDown 1s ease-out;
+}
+
+.Title span {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--pink-07);
+}
+
+.SubTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text);
+  margin-top: 10px;
+  animation: slideDown 1s ease-out;
+}
+
+.MovieCardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 800px;
+  margin-top: 270px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  background: linear-gradient(to bottom, #ea3564, var(--white-03));
+}
+.Card {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) -4px 9px 25px -6px;
+  animation: slideUp 1s ease-out;
+}
+
+.Card1 {
+  top: 250px;
+}
+
+.Card2 {
+  top: 300px;
+  left: 150px;
+}
+
+.Card3 {
+  top: 300px;
+  right: 150px;
+}
