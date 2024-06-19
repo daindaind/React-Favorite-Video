@@ -1,0 +1,54 @@
+.Container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.2s ease;
+}
+
+.Container:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.ImageBg {
+  border-radius: 10px;
+  width: 250px;
+  height: 360px;
+}
+
+.ContentBg {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 250px;
+  height: 360px;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.ContentsContainer {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.Creater {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}

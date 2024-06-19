@@ -1,0 +1,47 @@
+@keyframes slideUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.slideUp {
+  animation: slideUp 1s ease-out;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.Title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text);
+  z-index: 100;
+  animation: slideUp 1s ease-out;
+}
+
+.SubTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text);
+  margin-top: 10px;
+  margin-bottom: 80px;
+  z-index: 100;
+  animation: slideUp 1s ease-out;
+}
+
+.PostCardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  animation: slideUp 1s ease-out;
+}
