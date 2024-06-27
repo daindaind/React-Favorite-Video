@@ -10,12 +10,12 @@ const ThirdUI = () => {
 
   return (
     <div ref={ref} className={styles.Container}>
-      <h1 className={isInViewport && styles.Title}>인기 게시글</h1>
-      <h3 className={isInViewport && styles.SubTitle}>
+      <h1 className={isInViewport ? styles.Title : undefined}>인기 게시글</h1>
+      <h3 className={isInViewport ? styles.SubTitle : undefined}>
         모두의 취향이 담긴 소개를 읽어보세요
       </h3>
 
-      <div className={isInViewport && styles.PostCardContainer}>
+      <div className={isInViewport ? styles.PostCardContainer : undefined}>
         {dummyMovies.slice(7, 12).map(({ image, id, summary, creator }, _) => (
           <PostCard
             image={image}
