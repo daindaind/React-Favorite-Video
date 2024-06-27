@@ -21,7 +21,7 @@ const SecondUI = () => {
         <div className={isInViewport ? styles.BubblePosition1 : undefined}>
           <div className={styles.SpeechBubbleLeft}>
             <p className={styles.BubbleText}>
-              이 영화에 대해 다른 사람과{"\n"}얘기하고 싶어 :{"("}
+              이 영화에 대해 다른 사람과{"\n"}얘기하고 싶어 🤔
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ const ThirdUI = () => {
       </h3>
 
       <div className={isInViewport ? styles.PostCardContainer : undefined}>
-        {dummyMovies.slice(7, 12).map(({ image, id, summary, creator }, _) => (
+        {dummyMovies.slice(7, 11).map(({ image, id, summary, creator }, _) => (
           <PostCard
             image={image}
             summary={summary}

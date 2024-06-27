@@ -256,6 +256,102 @@ const dummyMovies = [
     creator: "차다인",
     creator_email: "1904vv@gmail.com",
   },
+  {
+    id: 12,
+    title: "유전",
+    slug: "Hereditary",
+    image:
+      "https://i.namu.wiki/i/66e-_2eEuAuH3Wp3F6AqMW_HSjBPmNZnJ6EWlZDNWC3B09R287JB7JKwHw6_lSGj2TkK98vgtQg3tApROiGQig.webp",
+    summary:
+      " 이 영화는 가족의 비극과 그들이 직면한 초자연적인 사건을 중심으로 이야기를 전개합니다.",
+    instructions: `
+             1. 드라마 감상 준비:
+                 조용하고 집중할 수 있는 환경에서 감상하세요. 휴대폰은 무음으로 설정합니다.
+ 
+             2. 드라마 감상:
+                 셜록 홈즈의 추리 과정과 사건 해결에 주목합니다. 인물 간의 관계와 복잡한 사건에 집중하세요.
+ 
+             3. 토론하기:
+                 에피소드가 끝난 후, 주요 사건과 셜록의 추리 과정에 대해 친구나 가족과 이야기합니다.
+ 
+             4. 리뷰 작성:
+                 드라마를 본 후, 느낀 점을 글로 남기거나 온라인에 리뷰를 작성합니다. 추리의 전개와 배우들의 연기를 평가합니다.
+         `,
+    creator: "차다인",
+    creator_email: "1904vv@gmail.com",
+  },
+  {
+    id: 13,
+    title: "나우유씨미",
+    slug: "Now You See Me",
+    image:
+      "https://i.namu.wiki/i/TeucTQgV1aNI9G689xOVdQIGigvIupVh_D2Uuxx4Fo60RiiVazfS12TiZNZAFTWEz3fkx2-Pzy0iTAbLFUwtwQ.webp",
+    summary:
+      "이 영화는 마술과 강도, 그리고 복수의 이야기를 결합한 독특한 플롯을 자랑합니다.",
+    instructions: `
+             1. 드라마 감상 준비:
+                 조용하고 집중할 수 있는 환경에서 감상하세요. 휴대폰은 무음으로 설정합니다.
+ 
+             2. 드라마 감상:
+                 셜록 홈즈의 추리 과정과 사건 해결에 주목합니다. 인물 간의 관계와 복잡한 사건에 집중하세요.
+ 
+             3. 토론하기:
+                 에피소드가 끝난 후, 주요 사건과 셜록의 추리 과정에 대해 친구나 가족과 이야기합니다.
+ 
+             4. 리뷰 작성:
+                 드라마를 본 후, 느낀 점을 글로 남기거나 온라인에 리뷰를 작성합니다. 추리의 전개와 배우들의 연기를 평가합니다.
+         `,
+    creator: "차다인",
+    creator_email: "1904vv@gmail.com",
+  },
+  {
+    id: 14,
+    title: "SKY캐슬",
+    slug: "SKY Castle",
+    image:
+      "https://i.namu.wiki/i/0b4sbC0WOm4CXYh8tZC88Du7C8fFpLpdJ6OaGINPgRLTCXZd4E45qgy9KLBpAbyaej9OY_LDKx1DJUOdlat4LA.webp",
+    summary:
+      "이 드라마는 대한민국 상류층 가족들의 교육열과 경쟁, 그리고 그로 인한 갈등과 비극을 다룹니다.",
+    instructions: `
+             1. 드라마 감상 준비:
+                 조용하고 집중할 수 있는 환경에서 감상하세요. 휴대폰은 무음으로 설정합니다.
+ 
+             2. 드라마 감상:
+                 셜록 홈즈의 추리 과정과 사건 해결에 주목합니다. 인물 간의 관계와 복잡한 사건에 집중하세요.
+ 
+             3. 토론하기:
+                 에피소드가 끝난 후, 주요 사건과 셜록의 추리 과정에 대해 친구나 가족과 이야기합니다.
+ 
+             4. 리뷰 작성:
+                 드라마를 본 후, 느낀 점을 글로 남기거나 온라인에 리뷰를 작성합니다. 추리의 전개와 배우들의 연기를 평가합니다.
+         `,
+    creator: "차다인",
+    creator_email: "1904vv@gmail.com",
+  },
+  {
+    id: 15,
+    title: "귀를 기울이면",
+    slug: "Whisper of the Heart",
+    image:
+      "https://i.namu.wiki/i/md9k0rXisXw8v1XeDxa5wh5j5VUrdMP-BjJD9c7Og7PJUhpg2bsUFJTXJNRedJc5YwuC_iCzltefiVgKb3oyCg.webp",
+    summary:
+      "이 영화는 도쿄에 사는 14살 소녀 츠키시마 시즈쿠의 성장과 첫사랑 이야기를 그립니다.",
+    instructions: `
+             1. 드라마 감상 준비:
+                 조용하고 집중할 수 있는 환경에서 감상하세요. 휴대폰은 무음으로 설정합니다.
+ 
+             2. 드라마 감상:
+                 셜록 홈즈의 추리 과정과 사건 해결에 주목합니다. 인물 간의 관계와 복잡한 사건에 집중하세요.
+ 
+             3. 토론하기:
+                 에피소드가 끝난 후, 주요 사건과 셜록의 추리 과정에 대해 친구나 가족과 이야기합니다.
+ 
+             4. 리뷰 작성:
+                 드라마를 본 후, 느낀 점을 글로 남기거나 온라인에 리뷰를 작성합니다. 추리의 전개와 배우들의 연기를 평가합니다.
+         `,
+    creator: "차다인",
+    creator_email: "1904vv@gmail.com",
+  },
 ];
 
 export default dummyMovies;
